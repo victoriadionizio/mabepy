@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mabepy"
+version = "0.1.0"
+description = "Uma biblioteca Python para Lógica Paraconsistente (LPA2v)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [  {name = "Victoria Dionizio", email = "victoria_dionizio@hotmail.com"}]
+keywords = ["logica", "paraconsistente", "lpa2v", "ia"]
+dependencies = ["numpy","pandas", "matplotlib"]
+
+[project.urls]
+"Homepage" = "https://github.com/victoriadionizio/mabepy"
